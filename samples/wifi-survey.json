@@ -1,0 +1,12 @@
+{
+  "format": "wiretap-wifiaudit/v1",
+  "source": "synthetic sample only",
+  "access_points_found": 4,
+  "access_points": [
+    {"ssid": "Lab:Guest", "bssid": "02:11:22:33:44:55", "channel": "6", "frequency": "2437", "signal": "81", "security": "WPA2", "risk": "moderate"},
+    {"ssid": "Training-AP", "bssid": "02:11:22:33:44:66", "channel": "11", "frequency": "2462", "signal": "55", "security": "WPA3", "risk": "low"},
+    {"ssid": "CoffeeExample", "bssid": "", "channel": "", "frequency": "", "signal": "", "security": "--", "risk": "high"},
+    {"ssid": "LegacyLab", "bssid": "02:11:22:33:44:77", "channel": "1", "frequency": "2412", "signal": "34", "security": "WEP", "risk": "critical"}
+  ],
+  "limitations": "Synthetic educational fixture. Advertised security strings do not prove actual configuration or safety."
+}
